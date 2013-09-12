@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>WD1</title>
+        <meta name="description" content="Може колись це попаде в і-нет">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <header>
+                <nav>
+                    <ul class="nav nav-tabs">
+                        <li>
+                            <a href="index.html">Головна</a>
+                        </li>
+                        <li class="active">
+                            <a href="form.html">Форма</a>
+                        </li>
+                        <li>
+                            <a href="table.html">Таблиця</a>
+                        </li>
+                        <li>
+                            <a href="pictures.html">Малюнки</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="span12">
+                <form>
+                    <div class="span6">
+                        <label>Звичайне текстове поле:</label>
+                        <input type="text" placeholder="Тут щось, на зразок підказки...">
+                        <label class="checkbox">
+                          <input type="checkbox">Прапорець
+                        </label>
+                        <label class="checkbox">
+                          <input type="checkbox" onclick="failCheck(this)">а цей прапорець тицяти не треба
+                        </label>
+                        <span>Текстові поля:</span>
+                        <label>
+                            <input class="input-small" type="text" placeholder="маленьке">
+                        </label>
+                        <label>
+                            <input class="input-xlarge" type="text" placeholder="велике">
+                        </label>
+                        <label>
+                            <input class="input-large" type="text" placeholder="середнє">
+                        </label>
+                        <label>
+                            <input type="text" class="input-medium search-query">
+                            <button type="submit" class="btn">Типу пошукова формочка <i class="icon-search"></i></button>
+                        </label>
+                    </div>
+                    <div class="span5">
+                        <label>Випадаючий список:</label>
+                        <select class="span2">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select> 
+                        <label>І звичайний (не випадаючий) список:</label>
+                        <select multiple="multiple">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                        </select>
+                        <label>Радіо кнопочки:</label>
+                        <div class="row">
+                            <div class="span3">
+                                <label class="radio">
+                                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="" checked>Один</input>   
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="" checked>Два</input>   
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="" checked>Дватцять сім</input>   
+                                </label>
+                                <label class="radio">
+                                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="" checked>1005000</input>   
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--
+                    <div class="row">
+                        <input type="text">
+                    </div>
+                    <div class="row">
+                        <span>Прапорець:</span>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <div class="row">
+                        <span>Прапорець(номер два):</span>
+                        <input type="checkbox" class="checkbox" onclick="if (this.checked) { alert('А Вам воно точно треба?'); this.checked = false;}">
+                    </div>
+                    <div class="row">
+                        <span>Радіо:</span>
+                        <div>
+                            <input type="radio" class="radio" name="radio"> Перше</input>
+                        </div>
+                        <div>
+                            <input type="radio" class="radio" name="radio"> Друге</input>
+                        </div>
+                        <div>
+                            <input type="radio" class="radio" name="radio"> Третє</input>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" class="input-medium search-query">
+                    </div>
+                    <div class="row">
+                        <select value="Выбор способа доставки">
+                          <option>Перше</option>
+                          <option>Друге</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <select value="Выбор способа доставки">
+                          <option>Перше</option>
+                          <option>Друге</option>
+                        </select>
+                    </div>
+                    <select multiple="multiple">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                    <div class="row">
+                        <input type="submit" class="btn">
+                    </div>-->
+                </form>
+            </div>
+            <!--span12-->
+            <footer class="navbar-fixed-bottom">
+                <span>Роботу виконав студент групи ПР-102 <strong>Карпович Дмитро</strong> </span>
+            </footer>
+        </div> <!-- /container -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
