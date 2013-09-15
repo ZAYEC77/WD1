@@ -8,4 +8,6 @@ function failCheck (obj) {
 	}
 }
 
-
+function toggleImg (img) {
+	$(img).toggleClass('selected');
+}

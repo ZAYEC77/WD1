@@ -3,9 +3,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-	//display: none;
-}
+
 .span12 {
 	padding-bottom: 30px;
 	display: none;
@@ -34,4 +32,27 @@ ol>li>ul {
 
 table.first tr td {
 	padding: 10px;
+}
+
+.slider ul {
+	list-style: none;
+}
+
+.slider li img {
+	padding: 5px;
+	border: solid #ccc 1px;
+	border-radius: 5px;
+	margin: 5px;
+	float: left;
+	height: 200px;
+}
+.slider li img.selected {
+	background: white;
+	position: absolute;
+	width: 800px;
+	height: auto;
+	left: 150px;
+	top: 50px;
+	clear: both;
+	margin: auto;
 }
