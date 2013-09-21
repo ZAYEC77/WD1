@@ -10,4 +10,9 @@ function failCheck (obj) {
 
 function toggleImg (img) {
 	$(img).toggleClass('selected');
+	$('body').toggleClass('black');
 }
+
+$("table.last td").click(function() {
+  $(this).toggleClass("red");
+});

@@ -3,7 +3,9 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body.black {
+	background: #888;
+}
 .span12 {
 	padding-bottom: 30px;
 	display: none;
@@ -14,7 +16,7 @@
 	border-radius: 10px;
 	padding: 5px;
 }
-	
+
 footer {
 	background: #ccc;
 	padding: 10px 0 0 30px;
@@ -34,6 +36,26 @@ table.first tr td {
 	padding: 10px;
 }
 
+.last .red {
+	border: 1px solid red;	
+}
+
+.last td:hover {
+	border-color: #0f0;
+
+}
+
+.last {
+	border: none;
+	border-collapse: separate;
+	border-spacing:20px;
+}
+
+.last td {
+	padding: 10px;
+	margin: 10px;
+}
+
 .slider ul {
 	list-style: none;
 }
@@ -49,10 +71,11 @@ table.first tr td {
 .slider li img.selected {
 	background: white;
 	position: absolute;
-	width: 800px;
-	height: auto;
-	left: 150px;
-	top: 50px;
+	width: auto;
+	height: 600px;
+	left: 100px;
+	top: 0;
+	right: 100px;
 	clear: both;
 	margin: auto;
 }
